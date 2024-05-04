@@ -9,8 +9,8 @@ class BackgroundPage extends StatelessWidget {
       body: Container(
           decoration: const BoxDecoration(
         image: DecorationImage(
-          image:
-              AssetImage('assets/images/background.jpg'), // Ruta de la imagen de fondo
+          image: AssetImage(
+              'assets/images/background.jpg'), // Ruta de la imagen de fondo
           fit: BoxFit.cover, // Ajusta la imagen al tamaño del contenedor
         ),
       )),
